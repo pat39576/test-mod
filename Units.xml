@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameInfo>
   <Types>
-	<Row Type="UNIT_TRUMP_REAL_ESTATE_AGENT" Kind="KIND_UNIT"/> <!-- Declares the Real Estate Agent as a new unit.-->
-	<Row Type="TRAIT_LEADER_UNIT_TRUMP_REAL_ESTATE_AGENT" Kind="KIND_TRAIT" /> <!-- **IMPORTANT** Traits are required in order to make the unit unique to America only. Otherwise everyone could build Trump Tower. -->
+	<Row Type="UNIT_M1_ABRAMS" Kind="KIND_UNIT"/> <!-- Declares the Real Estate Agent as a new unit.-->
   </Types>
   
   
@@ -10,15 +9,10 @@
 	<Row TraitType="TRAIT_LEADER_UNIT_TRUMP_REAL_ESTATE_AGENT" Name="LOC_TRUMP_UNIT_REAL_ESTATE_AGENT_NAME"/> <!-- Sets the name of the Trait declared above. -->
   </Traits>
   
-  
-  <UnitReplaces>
-	<Row CivUniqueUnitType="UNIT_TRUMP_REAL_ESTATE_AGENT" ReplacesUnitType="UNIT_SETTLER" /> <!-- Sets the Real Estate Agent to replace the Settler. This removes the Settler from the game (for Trump) and the REA is in its place. -->
-  </UnitReplaces>
-  
-  
+
   <Units>
 	<!-- Creates the new unit. Most is self explanatory. Last part (TraitType) is required to make the unit unique. -->
-	<Row UnitType="UNIT_TRUMP_REAL_ESTATE_AGENT" BaseMoves="5" Cost="80" BaseSightRange="4" ZoneOfControl="false" Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_CIVILIAN" FoundCity="true" PopulationCost="1" PrereqPopulation="2" Name="LOC_TRUMP_UNIT_REAL_ESTATE_AGENT_NAME" Description="LOC_TRUMP_UNIT_REAL_ESTATE_AGENT_DESCRIPTION" PurchaseYield="YIELD_GOLD" CostProgressionModel="COST_PROGRESSION_PREVIOUS_COPIES" CostProgressionParam1="20" CanCapture="True" TraitType="TRAIT_LEADER_UNIT_TRUMP_REAL_ESTATE_AGENT"/>
+	<Row UnitType="UNIT_M1_ABRAMS" BaseMoves="5" Cost="80" BaseSightRange="4" ZoneOfControl="false" Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_CIVILIAN" FoundCity="true" PopulationCost="1" PrereqPopulation="2" Name="LOC_TRUMP_UNIT_REAL_ESTATE_AGENT_NAME" Description="LOC_TRUMP_UNIT_REAL_ESTATE_AGENT_DESCRIPTION" PurchaseYield="YIELD_GOLD" CostProgressionModel="COST_PROGRESSION_PREVIOUS_COPIES" CostProgressionParam1="20" CanCapture="True" TraitType="TRAIT_LEADER_UNIT_TRUMP_REAL_ESTATE_AGENT"/>
   </Units>
 </GameInfo>
 Contact GitHub API Training Shop Blog About
