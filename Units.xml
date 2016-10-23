@@ -12,7 +12,7 @@
 
   <Units>
 	<!-- Creates the new unit. Most is self explanatory. Last part (TraitType) is required to make the unit unique. -->
-	<Row UnitType="UNIT_M1_ABRAMS" BaseMoves="5" Cost="80" BaseSightRange="4" ZoneOfControl="false" Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_CIVILIAN" FoundCity="true" PopulationCost="1" PrereqPopulation="2" Name="LOC_TRUMP_UNIT_REAL_ESTATE_AGENT_NAME" Description="LOC_TRUMP_UNIT_REAL_ESTATE_AGENT_DESCRIPTION" PurchaseYield="YIELD_GOLD" CostProgressionModel="COST_PROGRESSION_PREVIOUS_COPIES" CostProgressionParam1="20" CanCapture="True" TraitType="TRAIT_LEADER_UNIT_TRUMP_REAL_ESTATE_AGENT"/>
+	<Row UnitType="UNIT_M1_ABRAMS" BaseMoves="MOVES/TURN" Cost="COST" BaseSightRange="TILEAMOUNT" ZoneOfControl="true" Domain="DOMAIN_LAND" PromotionClass="PROMOTION_CLASS_MELEE" FormationClass="FORMATION_CLASS_LAND_COMBAT" Name="Your Text Tag" Description="Your Text Tag" PurchaseYield="YIELD_GOLD" CanCapture="True" Maintenance="Gold/Turn Taken" Combat="Combat Strength Melee" RangedCombat="Combat Strength Ranged", Range="Range" PrereqTech="TECH_Something" />
   </Units>
 </GameInfo>
 Contact GitHub API Training Shop Blog About
