@@ -12,7 +12,7 @@
 
   <Units>
 	<!-- Creates the new unit. Most is self explanatory. Last part (TraitType) is required to make the unit unique. -->
-	<Row UnitType="UNIT_M1_ABRAMS" BaseMoves="MOVES/TURN" Cost="COST" BaseSightRange="TILEAMOUNT" ZoneOfControl="true" Domain="DOMAIN_LAND" PromotionClass="PROMOTION_CLASS_MELEE" FormationClass="FORMATION_CLASS_LAND_COMBAT" Name="Your Text Tag" Description="Your Text Tag" PurchaseYield="YIELD_GOLD" CanCapture="True" Maintenance="Gold/Turn Taken" Combat="Combat Strength Melee" RangedCombat="Combat Strength Ranged", Range="Range" PrereqTech="TECH_Something" />
+	<Row UnitType="UNIT_M1_ABRAMS" BaseMoves="5" Cost="700" BaseSightRange="4" ZoneOfControl="true" Domain="DOMAIN_LAND" PromotionClass="PROMOTION_CLASS_MELEE" FormationClass="FORMATION_CLASS_LAND_COMBAT" Name="Your Text Tag" Description="Your Text Tag" PurchaseYield="YIELD_GOLD" CanCapture="True" Maintenance="Gold/Turn Taken" Combat="100" PrereqTech="TECH_COMPOSITES" />
   </Units>
 </GameInfo>
 Contact GitHub API Training Shop Blog About
